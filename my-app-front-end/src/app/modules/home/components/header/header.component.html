@@ -1,0 +1,36 @@
+<header>
+    <div class="flex justify-between items-center py-4">
+        <h1 class="ml-4 text-3xl font-bold">Share Your Book</h1>
+        <div class="flex flex-col items-center mr-6 relative">
+            <i class="fa-solid fa-bars text-2xl p-4" (click)="showNav()"></i>
+            <div [class]="isClicked ? '' : 'hidden'" class="hiddenBlock absolute top-14 -right-1 min-w-40 bg-white rounded py-4">
+                <nav>
+                    <ul class="text-left text-black">
+                        <li class="font-semibold py-1">
+                            <a href="" class="pl-2 text-sm">A propos</a>
+                        </li>
+                        <li class="font-semibold py-1">
+                            <a href="" class="pl-2 text-sm">Blog</a>
+                        </li>
+                        <li class="font-bold py-1 separateNav">
+                            <a href="" class="pl-2 text-sm">Se connecter</a>
+                        </li>
+                        <li class="font-bold py-1">
+                            <a href="" class="pl-2 text-sm">Créer un compte</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div>
+        <nav class="hidden">
+            <ul class="flex justify-around mt-4">
+                <li class="text-2xl font-semibold">Accueil</li>
+                <li class="text-2xl font-semibold">Profil</li>
+                <li class="text-2xl font-semibold">Rechercher</li>
+                <li class="text-2xl font-semibold">Blog</li>
+            </ul>
+        </nav>
+    </div>
+</header>

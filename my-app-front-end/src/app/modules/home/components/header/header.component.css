@@ -1,0 +1,20 @@
+header {
+    background-image: linear-gradient(rgb(64, 64, 188), rgb(63, 63, 150));
+    color : white;
+}
+
+.hiddenBlock::after {
+    content : '';
+    position : absolute;
+    display: block;
+    bottom : 100%;
+    right : 23px;
+    border : 6px solid rgba(0, 0, 0, 0);
+    border-bottom : 6px solid white;
+}
+
+.separateNav {
+    margin-top : 5px;
+    padding-top : 4px;
+    border-top : 1px solid #d7d7d7;
+}
