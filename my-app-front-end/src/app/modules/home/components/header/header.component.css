@@ -1,5 +1,6 @@
 header {
     color : white;
+    background-image : linear-gradient(rgb(64, 64, 188), rgb(63, 63, 150));
 }
 
 .hiddenBlock::after {

@@ -1,0 +1,12 @@
+<div class="w-2/3 m-auto mt-8">
+    <div>
+        <p class="linearTextColor text-7xl"
+            [class]="data.textColor ? 'firstLinearTextColor' : 'secondLinearTextColor'"
+        >{{data.order }}.</p>
+    </div>
+    <div>
+        <h3 class="text-xl font-semibold presentationTitle">{{ data.title }}</h3>
+        <p class="text-md mt-2">{{ data.text }}</p>
+        <a href="" class="secondLinearTextColor text-md mt-4 underline underline-offset-4 decoration-2 decoration-red-400">{{ data.textLink }} <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+</div>

@@ -1,0 +1,19 @@
+.linearGradientCircle {
+    background-image : linear-gradient(rgb(74, 74, 218), rgb(85, 85, 206))
+}
+
+.firstLinearTextColor {
+    background: linear-gradient(rgb(74, 74, 218), rgb(85, 85, 206));
+    background-clip: text;
+    color :transparent; 
+}
+
+.secondLinearTextColor {
+    background: linear-gradient(rgb(215, 111, 130), rgb(207, 64, 88));
+    background-clip: text;
+    color :transparent; 
+}
+
+.presentationTitle {
+    color : rgb(39, 39, 164);
+}
