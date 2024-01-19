@@ -1,0 +1,13 @@
+.firstLinearTextColor {
+    background: linear-gradient(rgb(41, 41, 170), rgb(29, 29, 160));
+    background-clip: text;
+    color :transparent; 
+}
+
+.backgroundTitle {
+    background : linear-gradient(rgb(41, 41, 170), rgb(29, 29, 160));
+}
+
+::placeholder {
+    color :rgb(98, 96, 96)
+}
