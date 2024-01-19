@@ -1,7 +1,3 @@
-.linearGradientCircle {
-    background-image : linear-gradient(rgb(74, 74, 218), rgb(85, 85, 206))
-}
-
 .firstLinearTextColor {
     background: linear-gradient(rgb(74, 74, 218), rgb(85, 85, 206));
     background-clip: text;

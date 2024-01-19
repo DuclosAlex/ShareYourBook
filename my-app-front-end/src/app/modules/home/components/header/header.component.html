@@ -3,7 +3,7 @@
         <h1 class="ml-4 text-3xl font-bold">Share Your Book</h1>
         <div class="flex flex-col items-center mr-6 relative">
             <i class="fa-solid fa-bars text-2xl p-4" (click)="showNav()"></i>
-            <div [class]="isClicked ? '' : 'hidden'" class="hiddenBlock absolute top-14 -right-1 min-w-40 bg-white rounded py-4">
+            <div [class]="isClicked ? '' : 'hidden'" class="hiddenBlock absolute top-14 -right-1 min-w-40 bg-white rounded py-2">
                 <nav>
                     <ul class="text-left text-black">
                         <li class="font-semibold py-1">
@@ -16,7 +16,7 @@
                             <a href="" class="pl-2 text-sm">Se connecter</a>
                         </li>
                         <li class="font-bold py-1">
-                            <a href="" class="pl-2 text-sm">Créer un compte</a>
+                            <a href="/register" class="pl-2 text-sm">Créer un compte</a>
                         </li>
                     </ul>
                 </nav>
